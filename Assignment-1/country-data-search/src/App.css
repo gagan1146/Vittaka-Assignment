@@ -1,0 +1,102 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to bottom left, #f6f8ff, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.login-btn {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-container {
+  max-width: 900px;
+  margin: 80px auto;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.results {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.country-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.country-info img {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.details h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.details p {
+  margin: 3px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.view-btn {
+  background-color: #5a50f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  font-weight: 500;
+  margin-top: 30px;
+}
